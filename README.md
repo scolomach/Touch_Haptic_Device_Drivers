@@ -16,9 +16,13 @@ Software:
  ```
  
  2. Download and Extract Openhaptics (v3.4) and Touch Haptic Device drivers: 
- 3. 
+ 
+ Option 1.Using git 
+ 
+ Option 2. Download manually
 
- 3.Install OpenHaptics 
+ 
+ 4. Install OpenHaptics 
  ```
  cd ~/openhaptics_3.4-0-developer-edition-amd64/
  
