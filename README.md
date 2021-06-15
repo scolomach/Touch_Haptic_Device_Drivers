@@ -15,7 +15,7 @@ Software:
  sudo apt-get install --no-install-recommends freeglut3-dev g++ libdrm-dev libexpat1-dev libglw1-mesa libglw1-mesa-dev libmotif-dev libncurses5-dev libraw1394-dev libx11-dev libxdamage-dev libxext-dev libxt-dev libxxf86vm-dev tcsh unzip x11proto-dri2-dev x11proto-gl-dev x11proto-print-dev
  ```
  
- 2. Download and Extract Openhaptics (v3.4) and Touch Haptic Device drivers: 
+ 2. Download and Extract Openhaptics (v3.4) and Touch Haptic Device drivers
  
  Option 1.Using git 
  
@@ -58,7 +58,7 @@ git clone
  ```
  bash ListUSBHapticDevices
  ```
- Normally, it returns **/dev/ttyACM0**
+ Normally, it returns **/dev/ttyACM0**.
 
    5.2. Give access
 
@@ -74,11 +74,13 @@ git clone
  ```
  ./Touch_setup
  ```
- 6. Select and configure your device. Then, click **Apply** and **OK**.
+ 6. Select and configure your device 
  
- 8. Check if the device works correctly.
+     Click **Apply** and **OK**.
+ 
+ 8. Check if the device works correctly
 
  ```
  ./Touch_Diagnostic
  ```
- Click **select** to open the rest of functionalities
+   Click **select** to open the rest of functionalities.
