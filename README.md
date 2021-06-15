@@ -26,7 +26,7 @@ cd Documents
  ```
  
  ```
-git clone 
+git clone https://github.com/scolomach/Touch_Haptic_Device_Drivers.git
  ```
  
  Option 2. Download manually
