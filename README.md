@@ -25,7 +25,6 @@ Software:
  4. Install OpenHaptics 
  ```
  cd ~/openhaptics_3.4-0-developer-edition-amd64/
- 
  ```
  ```
  sudo ./install
@@ -34,7 +33,6 @@ Software:
  
   ```
  cd ~/geomagic_touch_device_driver_2015.5-26-amd64/
- 
  ```
  ```
  sudo ./install
@@ -48,6 +46,7 @@ Software:
  ```
  6. Select and condigure your device. Then, click Apply and OK.
  7. Check if the device works correctly.
+
  ```
  ./Touch_Diagnostic
  ```
