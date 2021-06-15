@@ -1,4 +1,4 @@
-# Touch_Haptic_Device_Drivers
+# Touch_Haptic_Device_Drivers for Linux
 Files and instructions for installing the Touch device drivers (Touch, Touch Stylus and Touch X). It has been tested with Touch USB device.
 
 # Pre-requirements
@@ -19,33 +19,64 @@ Software:
  
  Option 1.Using git 
  
+ The file is download in **Documents** file, but it can be another address or different file.
+ 
+ ```
+cd Documents
+ ```
+ 
+ ```
+git clone 
+ ```
+ 
  Option 2. Download manually
 
  
- 4. Install OpenHaptics 
+ 4. Install OpenHaptics for Linux
+ 
  ```
  cd ~/openhaptics_3.4-0-developer-edition-amd64/
  ```
  ```
  sudo ./install
  ```
- 4. Install Touch Haptic Device Drivers
- 
+ 4. Install Touch Haptic Device Drivers for linux
+
   ```
- cd ~/geomagic_touch_device_driver_2015.5-26-amd64/
+ cd ~/Touch_Drivers/
  ```
  ```
  sudo ./install
  ```
- 5. Execute the Touch Setup
+ 5. Port device access (USB)
+
+   5.1. Find out which port the haptic device has been assigned
+  
+ ```
+ cd Documents/Touch_Drivers/
+ ```
+ ```
+ bash ListUSBHapticDevices
+ ```
+ Normally, it returns **/dev/ttyACM0**
+
+   5.2. Give access
+
+ ```
+ sudo chmod 777 /dev/ttyACM0
+ ```
+ 
+ 7. Execute the Touch Setup
+ 
  ```
  cd /opt/geomagic_touch_device_driver/ 
  ```
  ```
  ./Touch_setup
  ```
- 6. Select and condigure your device. Then, click Apply and OK.
- 7. Check if the device works correctly.
+ 6. Select and configure your device. Then, click **Apply** and **OK**.
+ 
+ 8. Check if the device works correctly.
 
  ```
  ./Touch_Diagnostic
