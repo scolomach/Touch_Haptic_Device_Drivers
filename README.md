@@ -1,6 +1,8 @@
 # Touch_Haptic_Device_Drivers for Linux
 Files and instructions for installing the Touch device drivers (Touch, Touch Stylus and Touch X). It has been tested with Touch USB device.
 
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.matterhackers.com%2Fstore%2Fl%2F3d-systems-touch-haptic-device%2Fsk%2FM12PCJ5U&psig=AOvVaw32lDtYEhQMjbzWOK1X-gSw&ust=1623851852559000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCAxtjlmfECFQAAAAAdAAAAABAY)
+
 # Pre-requirements
 Hardware:
 - Touch device 
