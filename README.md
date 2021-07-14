@@ -48,7 +48,7 @@ git clone https://github.com/scolomach/Touch_Haptic_Device_Drivers.git
  4.2 Install Touch Haptic Device Drivers for linux 
 
   ```
- cd Touch_Drivers/
+ cd Touch_Haptic_Device_Drivers/Touch_Drivers/
  ```
  ```
  sudo ./install
