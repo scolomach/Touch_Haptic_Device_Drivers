@@ -60,7 +60,7 @@ git clone https://github.com/scolomach/Touch_Haptic_Device_Drivers.git
    5.1. Find out which port the haptic device has been assigned
   
  ```
- cd Documents/Touch_Drivers/
+ cd Documents/Touch_Haptic_Device_Drivers/Touch_Drivers/
  ```
  ```
  bash ListUSBHapticDevices
