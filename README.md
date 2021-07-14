@@ -40,7 +40,7 @@ git clone https://github.com/scolomach/Touch_Haptic_Device_Drivers.git
  4.1 Install OpenHaptics for Linux (download in: https://3dsystems.teamplatform.com/pages/102863?t=fptvcy2zbkcc)
  
  ```
- cd ~/openhaptics_3.4-0-developer-edition-amd64/
+ cd openhaptics_3.4-0-developer-edition-amd64/
  ```
  ```
  sudo ./install
@@ -48,7 +48,7 @@ git clone https://github.com/scolomach/Touch_Haptic_Device_Drivers.git
  4.2 Install Touch Haptic Device Drivers for linux 
 
   ```
- cd ~/Touch_Drivers/
+ cd Touch_Drivers/
  ```
  ```
  sudo ./install
