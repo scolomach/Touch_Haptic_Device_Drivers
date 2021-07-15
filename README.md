@@ -10,6 +10,10 @@ Software:
 - Ubuntu 18.04
 
 # Installation
+  0. Install Qt (if the user does not have)
+ ```
+ sudo apt-get install qt5-default
+ ```
   1. Install Dependencies
   
  ```
@@ -24,7 +28,7 @@ Software:
  
  Option 1.Using git 
  
- The file is download in **Documents** file, but it can be another address or different file.
+ The file is downloaded in **Documents** file, but it can be another address or different file.
  
  ```
 cd Documents
@@ -91,3 +95,17 @@ git clone https://github.com/scolomach/Touch_Haptic_Device_Drivers.git
  ./Touch_Diagnostic
  ```
    Click **select** to open the rest of functionalities.
+   
+# Problems
+   1. If the device position is constant and your OS language is not English, consider changing locales.
+  ```
+  LC_NUMERIC=en_US.UTF-8
+  LANG=en_US.UTF-8
+  LC_ALL=en_US.UTF-8
+   ```
+   Logout and login again for the environmental variables to take effect use the command:
+   ```
+   gnome-session-quit
+   ```
+       
+ 
