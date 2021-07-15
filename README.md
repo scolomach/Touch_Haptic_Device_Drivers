@@ -79,7 +79,7 @@ git clone https://github.com/scolomach/Touch_Haptic_Device_Drivers.git
  cd /opt/geomagic_touch_device_driver/ 
  ```
  ```
- ./Touch_setup
+ ./Touch_Setup
  ```
  6. Select and configure your device 
  
