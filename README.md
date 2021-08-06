@@ -57,6 +57,9 @@ git clone https://github.com/scolomach/Touch_Haptic_Device_Drivers.git
  cd Touch_Haptic_Device_Drivers/
  ```
  ```
+ chmod 777 install
+ ```
+ ```
  sudo ./install
  ```
  5. Port device access (USB)
